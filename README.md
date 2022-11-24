@@ -48,11 +48,6 @@ def costFunction (theta,X,y):
     grad=np.dot(X.T,h-y)/X.shape[0]
     return J,grad
 X_train=np.hstack((np.ones((X.shape[0],1)),X))
-theta=np.array([0,0,0])
-J,grad=costFunction(theta,X_train,y)
-print(J)
-print(grad)
-X_train=np.hstack((np.ones((X.shape[0],1)),X))
 theta=np.array([-24,0.2,0.2])
 J,grad=costFunction(theta,X_train,y)
 print(J)
