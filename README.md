@@ -108,7 +108,7 @@ np.mean(predict(res.x,X)==y)
 
 ![op9](https://user-images.githubusercontent.com/93427303/196707267-cb3e71ea-b21a-493a-ab92-fc02ef48f92d.png)
 
-
+![image](https://user-images.githubusercontent.com/93427303/204811798-225ccadc-9c1a-45e0-9dbc-c7b5b71f3eaf.png)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
